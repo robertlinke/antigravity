@@ -1,0 +1,104 @@
+Requirement already satisfied: discord.py in c:\users\tiny-\appdata\local\python\pythoncore-3.14-64\lib\site-packages (from -r requirements.txt (line 1)) (2.7.1)
+Requirement already satisfied: aiohttp in c:\users\tiny-\appdata\local\python\pythoncore-3.14-64\lib\site-packages (from -r requirements.txt (line 2)) (3.13.5)
+Requirement already satisfied: SimConnect in c:\users\tiny-\appdata\local\python\pythoncore-3.14-64\lib\site-packages (from -r requirements.txt (line 3)) (0.4.26)
+Requirement already satisfied: PyInstaller in c:\users\tiny-\appdata\local\python\pythoncore-3.14-64\lib\site-packages (from -r requirements.txt (line 4)) (6.19.0)
+Requirement already satisfied: audioop-lts in c:\users\tiny-\appdata\local\python\pythoncore-3.14-64\lib\site-packages (from discord.py->-r requirements.txt (line 1)) (0.2.2)
+Requirement already satisfied: aiohappyeyeballs>=2.5.0 in c:\users\tiny-\appdata\local\python\pythoncore-3.14-64\lib\site-packages (from aiohttp->-r requirements.txt (line 2)) (2.6.1)
+Requirement already satisfied: aiosignal>=1.4.0 in c:\users\tiny-\appdata\local\python\pythoncore-3.14-64\lib\site-packages (from aiohttp->-r requirements.txt (line 2)) (1.4.0)
+Requirement already satisfied: attrs>=17.3.0 in c:\users\tiny-\appdata\local\python\pythoncore-3.14-64\lib\site-packages (from aiohttp->-r requirements.txt (line 2)) (26.1.0)
+Requirement already satisfied: frozenlist>=1.1.1 in c:\users\tiny-\appdata\local\python\pythoncore-3.14-64\lib\site-packages (from aiohttp->-r requirements.txt (line 2)) (1.8.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in c:\users\tiny-\appdata\local\python\pythoncore-3.14-64\lib\site-packages (from aiohttp->-r requirements.txt (line 2)) (6.7.1)
+Requirement already satisfied: propcache>=0.2.0 in c:\users\tiny-\appdata\local\python\pythoncore-3.14-64\lib\site-packages (from aiohttp->-r requirements.txt (line 2)) (0.4.1)
+Requirement already satisfied: yarl<2.0,>=1.17.0 in c:\users\tiny-\appdata\local\python\pythoncore-3.14-64\lib\site-packages (from aiohttp->-r requirements.txt (line 2)) (1.23.0)
+Requirement already satisfied: idna>=2.0 in c:\users\tiny-\appdata\local\python\pythoncore-3.14-64\lib\site-packages (from yarl<2.0,>=1.17.0->aiohttp->-r requirements.txt (line 2)) (3.11)
+Requirement already satisfied: altgraph in c:\users\tiny-\appdata\local\python\pythoncore-3.14-64\lib\site-packages (from PyInstaller->-r requirements.txt (line 4)) (0.17.5)
+Requirement already satisfied: packaging>=22.0 in c:\users\tiny-\appdata\local\python\pythoncore-3.14-64\lib\site-packages (from PyInstaller->-r requirements.txt (line 4)) (26.0)
+Requirement already satisfied: pefile>=2022.5.30 in c:\users\tiny-\appdata\local\python\pythoncore-3.14-64\lib\site-packages (from PyInstaller->-r requirements.txt (line 4)) (2024.8.26)
+Requirement already satisfied: pyinstaller-hooks-contrib>=2026.0 in c:\users\tiny-\appdata\local\python\pythoncore-3.14-64\lib\site-packages (from PyInstaller->-r requirements.txt (line 4)) (2026.4)
+Requirement already satisfied: pywin32-ctypes>=0.2.1 in c:\users\tiny-\appdata\local\python\pythoncore-3.14-64\lib\site-packages (from PyInstaller->-r requirements.txt (line 4)) (0.2.3)
+Requirement already satisfied: setuptools>=42.0.0 in c:\users\tiny-\appdata\local\python\pythoncore-3.14-64\lib\site-packages (from PyInstaller->-r requirements.txt (line 4)) (82.0.1)
+
+[notice] A new release of pip is available: 25.3 -> 26.0.1
+[notice] To update, run: C:\Users\tiny-\AppData\Local\Python\pythoncore-3.14-64\python.exe -m pip install --upgrade pip
+116 INFO: PyInstaller: 6.19.0, contrib hooks: 2026.4
+116 INFO: Python: 3.14.3
+138 INFO: Platform: Windows-11-10.0.26200-SP0
+138 INFO: Python environment: C:\Users\tiny-\AppData\Local\Python\pythoncore-3.14-64
+138 INFO: wrote C:\Users\tiny-\Documents\antigravity\fs_discord_bot\SimRadioClient.spec
+142 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\tiny-\\Documents\\antigravity\\fs_discord_bot',
+ 'C:\\Users\\tiny-\\AppData\\Local\\Python\\pythoncore-3.14-64\\python314.zip',
+ 'C:\\Users\\tiny-\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs',
+ 'C:\\Users\\tiny-\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib',
+ 'C:\\Users\\tiny-\\AppData\\Local\\Python\\pythoncore-3.14-64',
+ 'C:\\Users\\tiny-\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages',
+ 'C:\\Users\\tiny-\\Documents\\antigravity\\fs_discord_bot']
+365 INFO: Appending 'binaries' from .spec
+365 INFO: checking Analysis
+404 INFO: checking PYZ
+417 INFO: checking PKG
+441 INFO: Bootloader C:\Users\tiny-\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+441 INFO: checking EXE
+447 INFO: Building because toc changed
+447 INFO: Building EXE from EXE-00.toc
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\tiny-\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\PyInstaller\__main__.py", line 321, in <module>
+    run()
+    ~~~^^
+  File "C:\Users\tiny-\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\PyInstaller\__main__.py", line 215, in run
+    run_build(pyi_config, spec_file, **vars(args))
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tiny-\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\PyInstaller\__main__.py", line 70, in run_build
+    PyInstaller.building.build_main.main(pyi_config, spec_file, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tiny-\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\PyInstaller\building\build_main.py", line 1275, in main
+    build(specfile, distpath, workpath, clean_build)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tiny-\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\PyInstaller\building\build_main.py", line 1213, in build
+    exec(code, spec_namespace)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tiny-\Documents\antigravity\fs_discord_bot\SimRadioClient.spec", line 19, in <module>
+    exe = EXE(
+        pyz,
+    ...<16 lines>...
+        entitlements_file=None,
+    )
+  File "C:\Users\tiny-\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\PyInstaller\building\api.py", line 675, in __init__
+    self.__postinit__()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tiny-\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\PyInstaller\building\datastruct.py", line 184, in __postinit__
+    self.assemble()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\tiny-\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\PyInstaller\building\api.py", line 769, in assemble
+    os.remove(self.name)
+    ~~~~~~~~~^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied: 'C:\\Users\\tiny-\\Documents\\antigravity\\fs_discord_bot\\dist\\SimRadioClient.exe'
+Installing requirements...
+
+Found native DLL at: C:\Users\tiny-\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\SimConnect\SimConnect.dll
+
+Building Executable...
+Building SimRadioClient.exe...
+Traceback (most recent call last):
+  File "C:\Users\tiny-\Documents\antigravity\fs_discord_bot\build.py", line 35, in build
+    subprocess.check_call(command_client)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tiny-\AppData\Local\Python\pythoncore-3.14-64\Lib\subprocess.py", line 419, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['C:\\Users\\tiny-\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe', '-m', 'PyInstaller', '--onefile', '--noconsole', '--add-binary', 'C:\\Users\\tiny-\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\SimConnect\\SimConnect.dll;SimConnect', '--name', 'SimRadioClient', 'client.py']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tiny-\Documents\antigravity\fs_discord_bot\build.py", line 43, in <module>
+    build()
+    ~~~~~^^
+  File "C:\Users\tiny-\Documents\antigravity\fs_discord_bot\build.py", line 40, in build
+    print(f"\n\u274c Build failed: {e}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tiny-\AppData\Local\Python\pythoncore-3.14-64\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
