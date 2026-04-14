@@ -1,7 +1,0 @@
-{
-    "bind_host": "0.0.0.0",
-    "bind_port": 8080,
-    "external_url": "127.0.0.1:8080",
-    "discord_bot_token": "MTQ5MDE1Mjk2NjQ1ODcwNDAzMw.G9YEZw.m4R0LQm88QjELqOmDDAH2VZBVlB2gqEFRhaorI",
-    "openaip_api_key": "f80b8d9dc9b6a58f20185d31d10103a1"
-}
